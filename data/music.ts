@@ -8,16 +8,22 @@ import type {
 
 /**
  * Midnight Melodies
- * Bollywood / Romantic / Nostalgic music catalogue.
+ * Bollywood + Bengali Romantic + Nostalgic Music Catalogue
  *
- * Audio files should be placed inside:
+ * Audio files:
  * public/audio/
  *
- * Cover images should be placed inside:
+ * Cover images:
  * public/images/
  */
 
+/* ───────────────────────────────────────────────────────────
+   SONGS
+─────────────────────────────────────────────────────────── */
+
 export const songs: Song[] = [
+  /* ===================== BOLLYWOOD ===================== */
+
   {
     id: "song-1",
     title: "Afeemi",
@@ -107,6 +113,368 @@ export const songs: Song[] = [
     c1: "#17121f",
     c2: "#a78bfa",
   },
+
+  /* ===================== BENGALI ===================== */
+
+  {
+    id: "song-6",
+    title: "Bojhena Se Bojhena",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    albumId: "album-6",
+    album: "Bojhena Se Bojhena",
+    genre: "Bengali",
+    year: 2012,
+    duration: 286,
+    audioSrc: "/audio/bojhena-se-bojhena.mp3",
+    // coverSrc: "/images/bojhena-se-bojhena.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#20141f",
+    c2: "#ec4899",
+  },
+
+  {
+    id: "song-7",
+    title: "Tomake Chai",
+    artistId: "artist-4",
+    artist: "Arindom",
+    albumId: "album-7",
+    album: "Tomake Chai",
+    genre: "Bengali",
+    year: 2017,
+    duration: 260,
+    audioSrc: "/audio/tomake-chai.mp3",
+    // coverSrc: "/images/tomake-chai.jpg",
+    f1: 220,
+    f2: 329.63,
+    c1: "#171827",
+    c2: "#60a5fa",
+  },
+
+  {
+    id: "song-8",
+    title: "Bhalobashar Morshum",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    albumId: "album-8",
+    album: "Bhalobashar Morshum",
+    genre: "Bengali",
+    year: 2022,
+    duration: 278,
+    audioSrc: "/audio/bhalobashar-morshum.mp3",
+    // coverSrc: "/images/bhalobashar-morshum.jpg",
+    f1: 246.94,
+    f2: 369.99,
+    c1: "#24131d",
+    c2: "#f472b6",
+  },
+
+  {
+    id: "song-9",
+    title: "Tumi Jake Bhalobasho",
+    artistId: "artist-5",
+    artist: "Iman Chakraborty",
+    albumId: "album-9",
+    album: "Praktan",
+    genre: "Bengali",
+    year: 2016,
+    duration: 286,
+    audioSrc: "/audio/tumi-jake-bhalobasho.mp3",
+    // coverSrc: "/images/tumi-jake-bhalobasho.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#1b1410",
+    c2: "#f59e0b",
+  },
+
+  {
+    id: "song-10",
+    title: "Mon Majhi Re",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    albumId: "album-10",
+    album: "Boss",
+    genre: "Bengali",
+    year: 2013,
+    duration: 278,
+    audioSrc: "/audio/mon-majhi-re.mp3",
+    // coverSrc: "/images/mon-majhi-re.jpg",
+    f1: 220,
+    f2: 329.63,
+    c1: "#10201a",
+    c2: "#34d399",
+  },
+
+  {
+    id: "song-11",
+    title: "Amake Amar Moto Thakte Dao",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-11",
+    album: "Autograph",
+    genre: "Bengali",
+    year: 2010,
+    duration: 285,
+    audioSrc: "/audio/amake-amar-moto-thakte-dao.mp3",
+    // coverSrc: "/images/amake-amar-moto-thakte-dao.jpg",
+    f1: 174.61,
+    f2: 261.63,
+    c1: "#171717",
+    c2: "#94a3b8",
+  },
+
+  {
+    id: "song-12",
+    title: "Ekbar Bol",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    albumId: "album-12",
+    album: "Ekbar Bol",
+    genre: "Bengali",
+    year: 2015,
+    duration: 270,
+    audioSrc: "/audio/ekbar-bol.mp3",
+    // coverSrc: "/images/ekbar-bol.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#201827",
+    c2: "#a78bfa",
+  },
+
+  {
+    id: "song-13",
+    title: "Parbona Ami Charte Toke",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    albumId: "album-13",
+    album: "Borbaad",
+    genre: "Bengali",
+    year: 2014,
+    duration: 265,
+    audioSrc: "/audio/parbona-ami-charte-toke.mp3",
+    // coverSrc: "/images/parbona-ami-charte-toke.jpg",
+    f1: 233.08,
+    f2: 349.23,
+    c1: "#21151c",
+    c2: "#fb7185",
+  },
+
+  {
+    id: "song-14",
+    title: "Kolkata Song",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-14",
+    album: "Kolkata Song",
+    genre: "Bengali",
+    year: 2013,
+    duration: 250,
+    audioSrc: "/audio/kolkata-song.mp3",
+    // coverSrc: "/images/kolkata-song.jpg",
+    f1: 220,
+    f2: 329.63,
+    c1: "#111827",
+    c2: "#38bdf8",
+  },
+
+  {
+    id: "song-15",
+    title: "Boba Tunnel",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-15",
+    album: "Boba Tunnel",
+    genre: "Bengali",
+    year: 2014,
+    duration: 275,
+    audioSrc: "/audio/boba-tunnel.mp3",
+    // coverSrc: "/images/boba-tunnel.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#171717",
+    c2: "#64748b",
+  },
+
+  {
+    id: "song-16",
+    title: "Benche Thakar Gaan",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-16",
+    album: "Autograph",
+    genre: "Bengali",
+    year: 2010,
+    duration: 292,
+    audioSrc: "/audio/benche-thakar-gaan.mp3",
+    // coverSrc: "/images/benche-thakar-gaan.jpg",
+    f1: 164.81,
+    f2: 246.94,
+    c1: "#171717",
+    c2: "#f59e0b",
+  },
+
+  {
+    id: "song-17",
+    title: "Aami Shei Manushta Aar Nei",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-17",
+    album: "Aami Shei Manushta Aar Nei",
+    genre: "Bengali",
+    year: 2015,
+    duration: 285,
+    audioSrc: "/audio/aami-shei-manushta-aar-nei.mp3",
+    // coverSrc: "/images/aami-shei-manushta-aar-nei.jpg",
+    f1: 185,
+    f2: 277.18,
+    c1: "#18151b",
+    c2: "#c084fc",
+  },
+
+  {
+    id: "song-18",
+    title: "E Tumi Kemon Tumi",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-18",
+    album: "E Tumi Kemon Tumi",
+    genre: "Bengali",
+    year: 2013,
+    duration: 280,
+    audioSrc: "/audio/e-tumi-kemon-tumi.mp3",
+    // coverSrc: "/images/e-tumi-kemon-tumi.jpg",
+    f1: 220,
+    f2: 330,
+    c1: "#16121d",
+    c2: "#e879f9",
+  },
+
+  {
+    id: "song-19",
+    title: "Chawl Raastaye",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    albumId: "album-19",
+    album: "Chawl Raastaye",
+    genre: "Bengali",
+    year: 2014,
+    duration: 265,
+    audioSrc: "/audio/chawl-raastaye.mp3",
+    // coverSrc: "/images/chawl-raastaye.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#141414",
+    c2: "#fb923c",
+  },
+
+  {
+    id: "song-20",
+    title: "Kichhu Chaini Ami",
+    artistId: "artist-7",
+    artist: "Rupam Islam",
+    albumId: "album-20",
+    album: "Kichhu Chaini Ami",
+    genre: "Bengali Rock",
+    year: 2010,
+    duration: 290,
+    audioSrc: "/audio/kichhu-chaini-ami.mp3",
+    // coverSrc: "/images/kichhu-chaini-ami.jpg",
+    f1: 146.83,
+    f2: 220,
+    c1: "#111111",
+    c2: "#ef4444",
+  },
+
+  {
+    id: "song-21",
+    title: "Shey Je Boshe Achhe",
+    artistId: "artist-8",
+    artist: "Arnob",
+    albumId: "album-21",
+    album: "Shey Je Boshe Achhe",
+    genre: "Bengali",
+    year: 2005,
+    duration: 280,
+    audioSrc: "/audio/shey-je-boshe-achhe.mp3",
+    // coverSrc: "/images/shey-je-boshe-achhe.jpg",
+    f1: 174.61,
+    f2: 261.63,
+    c1: "#102018",
+    c2: "#34d399",
+  },
+
+  {
+    id: "song-22",
+    title: "Hariye Giyechi",
+    artistId: "artist-8",
+    artist: "Arnob",
+    albumId: "album-22",
+    album: "Hariye Giyechi",
+    genre: "Bengali",
+    year: 2005,
+    duration: 275,
+    audioSrc: "/audio/hariye-giyechi.mp3",
+    // coverSrc: "/images/hariye-giyechi.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#121827",
+    c2: "#60a5fa",
+  },
+
+  {
+    id: "song-23",
+    title: "Tomar Jonno",
+    artistId: "artist-8",
+    artist: "Arnob",
+    albumId: "album-23",
+    album: "Tomar Jonno",
+    genre: "Bengali",
+    year: 2005,
+    duration: 270,
+    audioSrc: "/audio/tomar-jonno.mp3",
+    // coverSrc: "/images/tomar-jonno.jpg",
+    f1: 220,
+    f2: 329.63,
+    c1: "#1b1620",
+    c2: "#c084fc",
+  },
+
+  {
+    id: "song-24",
+    title: "Chiltey Roud",
+    artistId: "artist-8",
+    artist: "Arnob",
+    albumId: "album-24",
+    album: "Chiltey Roud",
+    genre: "Bengali",
+    year: 2005,
+    duration: 265,
+    audioSrc: "/audio/chiltey-roud.mp3",
+    // coverSrc: "/images/chiltey-roud.jpg",
+    f1: 246.94,
+    f2: 369.99,
+    c1: "#20190f",
+    c2: "#fbbf24",
+  },
+
+  {
+    id: "song-25",
+    title: "Ekla Cholo Re",
+    artistId: "artist-9",
+    artist: "Shreya Ghoshal",
+    albumId: "album-25",
+    album: "Ekla Cholo Re",
+    genre: "Bengali",
+    year: 2010,
+    duration: 300,
+    audioSrc: "/audio/ekla-cholo-re.mp3",
+    // coverSrc: "/images/ekla-cholo-re.jpg",
+    f1: 196,
+    f2: 293.66,
+    c1: "#21170f",
+    c2: "#f59e0b",
+  },
 ];
 
 /* ───────────────────────────────────────────────────────────
@@ -173,6 +541,246 @@ export const albums: Album[] = [
     c1: "#17121f",
     c2: "#a78bfa",
   },
+
+  {
+    id: "album-6",
+    title: "Bojhena Bojhena",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    year: 2012,
+    description: "A soulful Bengali romantic classic.",
+    songIds: ["song-6"],
+    c1: "#20141f",
+    c2: "#ec4899",
+  },
+
+  {
+    id: "album-7",
+    title: "Tomake Chai",
+    artistId: "artist-4",
+    artist: "Arindom",
+    year: 2017,
+    description: "Modern Bengali romantic melodies.",
+    songIds: ["song-7"],
+    c1: "#171827",
+    c2: "#60a5fa",
+  },
+
+  {
+    id: "album-8",
+    title: "Bhalobashar Morshum",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    year: 2022,
+    description: "A modern Bengali romantic favourite.",
+    songIds: ["song-8"],
+    c1: "#24131d",
+    c2: "#f472b6",
+  },
+
+  {
+    id: "album-9",
+    title: "Praktan",
+    artistId: "artist-5",
+    artist: "Iman Chakraborty",
+    year: 2016,
+    description: "Emotional Bengali melodies.",
+    songIds: ["song-9"],
+    c1: "#1b1410",
+    c2: "#f59e0b",
+  },
+
+  {
+    id: "album-10",
+    title: "Boss",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    year: 2013,
+    description: "Popular Bengali romantic music.",
+    songIds: ["song-10"],
+    c1: "#10201a",
+    c2: "#34d399",
+  },
+
+  {
+    id: "album-11",
+    title: "Autograph",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2010,
+    description: "Iconic Bengali songs by Anupam Roy.",
+    songIds: ["song-11"],
+    c1: "#171717",
+    c2: "#94a3b8",
+  },
+
+  {
+    id: "album-12",
+    title: "Ekbar Bol",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    year: 2015,
+    description: "A soulful Bengali romantic song.",
+    songIds: ["song-12"],
+    c1: "#201827",
+    c2: "#a78bfa",
+  },
+
+  {
+    id: "album-13",
+    title: "Borbaad",
+    artistId: "artist-3",
+    artist: "Arijit Singh",
+    year: 2014,
+    description: "A popular Bengali romantic soundtrack.",
+    songIds: ["song-13"],
+    c1: "#21151c",
+    c2: "#fb7185",
+  },
+
+  {
+    id: "album-14",
+    title: "Kolkata Song",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2013,
+    description: "A musical tribute to Kolkata.",
+    songIds: ["song-14"],
+    c1: "#111827",
+    c2: "#38bdf8",
+  },
+
+  {
+    id: "album-15",
+    title: "Boba Tunnel",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2014,
+    description: "A reflective Bengali composition.",
+    songIds: ["song-15"],
+    c1: "#171717",
+    c2: "#64748b",
+  },
+
+  {
+    id: "album-16",
+    title: "Benche Thakar Gaan",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2010,
+    description: "One of Anupam Roy's most memorable songs.",
+    songIds: ["song-16"],
+    c1: "#171717",
+    c2: "#f59e0b",
+  },
+
+  {
+    id: "album-17",
+    title: "Aami Shei Manushta Aar Nei",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2015,
+    description: "Emotional Bengali songwriting.",
+    songIds: ["song-17"],
+    c1: "#18151b",
+    c2: "#c084fc",
+  },
+
+  {
+    id: "album-18",
+    title: "E Tumi Kemon Tumi",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2013,
+    description: "A beautiful modern Bengali melody.",
+    songIds: ["song-18"],
+    c1: "#16121d",
+    c2: "#e879f9",
+  },
+
+  {
+    id: "album-19",
+    title: "Chawl Raastaye",
+    artistId: "artist-6",
+    artist: "Anupam Roy",
+    year: 2014,
+    description: "A contemporary Bengali favourite.",
+    songIds: ["song-19"],
+    c1: "#141414",
+    c2: "#fb923c",
+  },
+
+  {
+    id: "album-20",
+    title: "Kichhu Chaini Ami",
+    artistId: "artist-7",
+    artist: "Rupam Islam",
+    year: 2010,
+    description: "Bengali rock with emotional depth.",
+    songIds: ["song-20"],
+    c1: "#111111",
+    c2: "#ef4444",
+  },
+
+  {
+    id: "album-21",
+    title: "Shey Je Boshe Achhe",
+    artistId: "artist-8",
+    artist: "Arnob",
+    year: 2005,
+    description: "A timeless Bengali acoustic classic.",
+    songIds: ["song-21"],
+    c1: "#102018",
+    c2: "#34d399",
+  },
+
+  {
+    id: "album-22",
+    title: "Hariye Giyechi",
+    artistId: "artist-8",
+    artist: "Arnob",
+    year: 2005,
+    description: "Nostalgic Bengali music.",
+    songIds: ["song-22"],
+    c1: "#121827",
+    c2: "#60a5fa",
+  },
+
+  {
+    id: "album-23",
+    title: "Tomar Jonno",
+    artistId: "artist-8",
+    artist: "Arnob",
+    year: 2005,
+    description: "Soft and intimate Bengali melodies.",
+    songIds: ["song-23"],
+    c1: "#1b1620",
+    c2: "#c084fc",
+  },
+
+  {
+    id: "album-24",
+    title: "Chiltey Roud",
+    artistId: "artist-8",
+    artist: "Arnob",
+    year: 2005,
+    description: "Warm acoustic Bengali music.",
+    songIds: ["song-24"],
+    c1: "#20190f",
+    c2: "#fbbf24",
+  },
+
+  {
+    id: "album-25",
+    title: "Ekla Cholo Re",
+    artistId: "artist-9",
+    artist: "Shreya Ghoshal",
+    year: 2010,
+    description: "A soulful rendition of a timeless Bengali classic.",
+    songIds: ["song-25"],
+    c1: "#21170f",
+    c2: "#f59e0b",
+  },
 ];
 
 /* ───────────────────────────────────────────────────────────
@@ -197,6 +805,69 @@ export const artists: Artist[] = [
     c1: "#151827",
     c2: "#818cf8",
   },
+
+  {
+    id: "artist-3",
+    name: "Arijit Singh",
+    bio: "One of India's most celebrated playback singers, known for soulful romantic melodies.",
+    genres: ["Bengali", "Bollywood", "Romantic"],
+    c1: "#20141f",
+    c2: "#ec4899",
+  },
+
+  {
+    id: "artist-4",
+    name: "Arindom",
+    bio: "Bengali singer and composer known for contemporary romantic music.",
+    genres: ["Bengali", "Romantic"],
+    c1: "#171827",
+    c2: "#60a5fa",
+  },
+
+  {
+    id: "artist-5",
+    name: "Iman Chakraborty",
+    bio: "Acclaimed Bengali singer known for powerful and emotional vocals.",
+    genres: ["Bengali", "Folk", "Romantic"],
+    c1: "#1b1410",
+    c2: "#f59e0b",
+  },
+
+  {
+    id: "artist-6",
+    name: "Anupam Roy",
+    bio: "Bengali singer-songwriter and composer known for contemporary and deeply emotional music.",
+    genres: ["Bengali", "Indie", "Romantic"],
+    c1: "#171717",
+    c2: "#94a3b8",
+  },
+
+  {
+    id: "artist-7",
+    name: "Rupam Islam",
+    bio: "Bengali singer-songwriter known for powerful rock and alternative music.",
+    genres: ["Bengali Rock", "Rock"],
+    c1: "#111111",
+    c2: "#ef4444",
+  },
+
+  {
+    id: "artist-8",
+    name: "Arnob",
+    bio: "Bangladeshi singer-songwriter known for intimate acoustic and alternative Bengali music.",
+    genres: ["Bengali", "Acoustic", "Alternative"],
+    c1: "#102018",
+    c2: "#34d399",
+  },
+
+  {
+    id: "artist-9",
+    name: "Shreya Ghoshal",
+    bio: "Indian playback singer celebrated for her versatile and expressive vocals.",
+    genres: ["Bengali", "Bollywood", "Classical"],
+    c1: "#21170f",
+    c2: "#f59e0b",
+  },
 ];
 
 /* ───────────────────────────────────────────────────────────
@@ -219,14 +890,65 @@ export const playlists: Playlist[] = [
   },
 
   {
+    id: "bengali-romantic",
+    name: "Bengali Romantic",
+    description: "Modern Bengali love songs and soulful melodies.",
+    songIds: [
+      "song-6",
+      "song-7",
+      "song-8",
+      "song-9",
+      "song-10",
+      "song-11",
+      "song-12",
+      "song-13",
+    ],
+    c1: "#20141f",
+    c2: "#ec4899",
+  },
+
+  {
+    id: "anupam-roy-essentials",
+    name: "Anupam Roy Essentials",
+    description: "A collection of memorable songs by Anupam Roy.",
+    songIds: [
+      "song-11",
+      "song-14",
+      "song-15",
+      "song-16",
+      "song-17",
+      "song-18",
+      "song-19",
+    ],
+    c1: "#171717",
+    c2: "#94a3b8",
+  },
+
+  {
+    id: "arnob-classics",
+    name: "Arnob Classics",
+    description: "Soft Bengali melodies for quiet nights.",
+    songIds: [
+      "song-21",
+      "song-22",
+      "song-23",
+      "song-24",
+    ],
+    c1: "#102018",
+    c2: "#34d399",
+  },
+
+  {
     id: "midnight-memories",
     name: "Midnight Memories",
-    description: "Soft melodies for late-night listening.",
+    description: "Bollywood and Bengali melodies for late-night listening.",
     songIds: [
-      "song-1",
-      "song-3",
-      "song-4",
-      "song-5",
+      "song-2",
+      "song-6",
+      "song-11",
+      "song-16",
+      "song-21",
+      "song-23",
     ],
     c1: "#171020",
     c2: "#9b5cff",
@@ -235,7 +957,7 @@ export const playlists: Playlist[] = [
   {
     id: "bollywood-romance",
     name: "Bollywood Romance",
-    description: "A collection of nostalgic Bollywood love songs.",
+    description: "Nostalgic Bollywood love songs.",
     songIds: [
       "song-1",
       "song-2",
@@ -245,6 +967,40 @@ export const playlists: Playlist[] = [
     ],
     c1: "#24131d",
     c2: "#e8799a",
+  },
+
+  {
+    id: "bengali-nostalgia",
+    name: "Bengali Nostalgia",
+    description: "Timeless Bengali songs from different generations.",
+    songIds: [
+      "song-11",
+      "song-16",
+      "song-20",
+      "song-21",
+      "song-22",
+      "song-23",
+      "song-24",
+    ],
+    c1: "#151827",
+    c2: "#818cf8",
+  },
+
+  {
+    id: "late-night-melodies",
+    name: "Late Night Melodies",
+    description: "Slow, emotional and atmospheric songs.",
+    songIds: [
+      "song-3",
+      "song-5",
+      "song-9",
+      "song-11",
+      "song-17",
+      "song-22",
+      "song-25",
+    ],
+    c1: "#111827",
+    c2: "#c084fc",
   },
 ];
 
@@ -283,10 +1039,6 @@ export const getPlaylistById = (
 ): Playlist | undefined =>
   playlists.find((playlist) => playlist.id === id);
 
-/**
- * Resolves a list of IDs to songs.
- * Missing songs are automatically removed.
- */
 export const getSongs = (
   ids: string[]
 ): Song[] =>
@@ -296,10 +1048,6 @@ export const getSongs = (
       (song): song is Song =>
         Boolean(song)
     );
-
-/* ───────────────────────────────────────────────────────────
-   ALBUM / ARTIST HELPERS
-─────────────────────────────────────────────────────────── */
 
 export const getAlbumSongs = (
   albumId: string
@@ -322,10 +1070,10 @@ export const getArtistAlbums = (
     (album) => album.artistId === artistId
   );
 
-/**
- * Artists who share at least one genre
- * with the given artist.
- */
+/* ───────────────────────────────────────────────────────────
+   RELATED ARTISTS
+─────────────────────────────────────────────────────────── */
+
 export const getRelatedArtists = (
   artistId: string
 ): Artist[] => {
@@ -352,13 +1100,6 @@ const matches = (
 ): boolean =>
   value.toLowerCase().includes(query);
 
-/**
- * Search across:
- * songs
- * albums
- * artists
- * playlists
- */
 export function searchCatalogue(
   rawQuery: string
 ): SearchResults {
@@ -414,4 +1155,4 @@ export function searchCatalogue(
       )
     ),
   };
-}
+};
